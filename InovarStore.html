@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inovar Store</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f3f3f3;
+            color: #333;
+        }
+        header {
+            background-color: #800020;
+            color: white;
+            padding: 1em 0;
+            text-align: center;
+        }
+        nav {
+            background-color: #5a001b;
+            color: white;
+            text-align: center;
+            padding: 0.5em 0;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        section {
+            padding: 2em;
+            margin: 0 auto;
+            max-width: 800px;
+        }
+        h2 {
+            color: #800020;
+        }
+        .products {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1em;
+        }
+        .product {
+            background-color: white;
+            padding: 1em;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            flex: 1 1 calc(33% - 2em);
+            box-sizing: border-box;
+        }
+        footer {
+            background-color: #800020;
+            color: white;
+            text-align: center;
+            padding: 1em 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Inovar Store</h1>
+        <p>Produtos personalizados que refletem sua personalidade</p>
+    </header>
+    <nav>
+        <a href="#sobre-nos">Sobre Nós</a>
+        <a href="#produtos">Produtos</a>
+        <a href="#contato">Contato</a>
+    </nav>
+    <section id="sobre-nos">
+        <h2>Sobre Nós</h2>
+        <p>Bem-vindo à Inovar Store! Somos especializados em produtos personalizados de alta qualidade. Nossa missão é fornecer itens únicos e exclusivos que refletem a personalidade de nossos clientes. Desde canecas e quadros MDF até almofadas e muito mais, oferecemos uma ampla variedade de produtos para atender a todas as suas necessidades de personalização.</p>
+    </section>
+    <section id="produtos">
+        <h2>Produtos</h2>
+        <div class="products">
+            <div class="product">
+                <h3>Caneca Personalizada</h3>
+                <p>Crie sua própria caneca com fotos, textos e designs exclusivos.</p>
+            </div>
+            <div class="product">
+                <h3>Quadro MDF</h3>
+                <p>Personalize quadros de MDF com frases inspiradoras ou imagens favoritas.</p>
+            </div>
+            <div class="product">
+                <h3>Almofada Personalizada</h3>
+                <p>Confeccionamos almofadas personalizadas para decorar sua casa com estilo.</p>
+            </div>
+        </div>
+    </section>
+    <section id="contato">
+        <h2>Contato</h2>
+        <p>Entre em contato conosco para mais informações ou pedidos personalizados:</p>
+        <p>Email: contato@inovarstore.com.br</p>
+        <p>Telefone: (11) 1234-5678</p>
+    </section>
